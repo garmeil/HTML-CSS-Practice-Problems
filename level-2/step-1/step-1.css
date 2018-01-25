@@ -1,43 +1,54 @@
 .main-top-section {
-    width: 100%;
-    height: 375px;
-    background: #F7F1E7;
-    position: relative;
+  width: 100%;
+  height: 375px;
+  background: #f7f1e7;
+  position: relative;
 }
 
 .top-header {
-    width: 100%;
-    height: 70px;
-    text-align: center;
-    background: #D8D8D8;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  background: #d8d8d8;
 }
 
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
 
 .menu {
-    width: 100px;
-    height: 40px;
-    background: #536A63;
+  width: 100px;
+  height: 40px;
+  background: #536a63;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
 }
 
 .logo {
-    width: 300px;
-    height: 40px;
-    margin-top: 10px;
-    background: #536A63;
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  background: #7a096b;
+  display: inline-block;
 }
 
 .sign-in {
-    width: 100px;
-    height: 40px;
-    background: #536A63;
+  width: 100px;
+  height: 40px;
+  background: #53536a;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 /*  Step-1 Make this container overhang off its parent container using display and bottom properties.  */
 
 .bottom-container {
-    width: 60%;
-    height: 60px;
-    left: 22%;
-    background: #536A63;
+  width: 60%;
+  height: 60px;
+  left: 22%;
+  background: #536a63;
+  position: absolute;
+  bottom: -30px;
 }
